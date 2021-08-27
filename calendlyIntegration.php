@@ -75,7 +75,7 @@
         $scope.connectCalendly=function(data) {
             $('#calendlyConnectButton').val('Connecting').attr("disabled", true);
             let loginAjaxSettings = {
-                "url": "http://myselfhealthcalendly.herokuapp.com/calendly/sendInvintation"+data,
+                "url": "https://myselfhealthcalendly.herokuapp.com/calendly/sendInvintation"+data,
                 "method": "GET",
                 "timeout": 0,
                 "headers": {
@@ -95,7 +95,7 @@
         $scope.login=function(data) {
             $('#loginButton').val('Logging in..').attr("disabled", true);
             let loginAjaxSettings = {
-                "url": "http://myselfhealthcalendly.herokuapp.com/calendly/checkStatus"+data,
+                "url": "https://myselfhealthcalendly.herokuapp.com/calendly/checkStatus"+data,
                 "method": "GET",
                 "timeout": 0,
                 "headers": {

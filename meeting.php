@@ -118,7 +118,7 @@ if(!isset($_SESSION['email'])) {
 
         $scope.getAllMyMeetings = function(){
             let getAllMyMeetings = {
-                "url": "http://myselfhealthcalendly.herokuapp.com/calendly/getAllMeetings",
+                "url": "https://myselfhealthcalendly.herokuapp.com/calendly/getAllMeetings",
                 "method": "GET",
                 "timeout": 0,
                 "headers": {}
@@ -136,7 +136,7 @@ if(!isset($_SESSION['email'])) {
 
         $scope.getAllUsers = function () {
             let getAllUsers = {
-                "url": "http://myselfhealthcalendly.herokuapp.com/calendly/getAllUsers",
+                "url": "https://myselfhealthcalendly.herokuapp.com/calendly/getAllUsers",
                 "method": "GET",
                 "timeout": 0,
                 "headers": {}
